@@ -115,7 +115,7 @@ const Resume = () => {
     const regexSection = new RegExp(`(${resumeSection.join('|')})`, 'gi'); //global and cases-insensitive
 
 
-    const filePath = `/resume/resume.docx`; //path of file
+    const filePath = `./resume/resume.docx`; //path of file
 
     fetch(filePath)
     .then(response => {
