@@ -9,7 +9,7 @@ const Home = () => {
             </p>
         </div>
 
-        <div class="container d-flex justify-content-center">
+        <div className="container d-flex justify-content-center">
             <ul id="home-info" className="d-flex flex-wrap gap-5"
             style={{
                 position: "relative", 
